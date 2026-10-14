@@ -1,0 +1,28 @@
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+
+  padding: 0.5rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo-container img {
+    width: 10rem !important;
+    filter: brightness(0%);
+    filter: invert(100%) !important;
+}
+
+.logo-container span {
+  font-size: 1.2rem;
+  font-weight: thin;
+  color: var(--text);
+}
