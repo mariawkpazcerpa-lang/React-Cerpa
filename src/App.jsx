@@ -1,9 +1,9 @@
 import {Routes, Route} from 'react-router-dom'
-import {ItemListContainer} from './components/ItemListContainer/ItemListContainer.jsx'
-import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer.jsx'
-import {CartView} from './components/Cart/CartView.jsx'
-import {About} from './components/About/About.jsx'
-import {Header} from './components/Header/Header.jsx'
+import {ItemListContainer} from './Components/ItemListContainer/ItemListContainer.jsx'
+import {ItemDetailContainer} from './Components/ItemDetailContainer/ItemDetailContainer.jsx'
+import {CartView} from './Components/Cart/CartView.jsx'
+import {About} from './Components/About/About.jsx'
+import {Header} from './Components/Header/Header.jsx'
 import './App.css'
 
 function App() {
