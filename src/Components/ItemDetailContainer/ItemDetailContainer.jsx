@@ -9,10 +9,7 @@ export const ItemDetailContainer = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    //Si volvieramos a renderizar el componente porque usamos "productos relacionados"
-    //Se tendria que volver a renderizar ItemDetailContainer con el nuevo detalle.
-    //Entonces: el array de dependencias del useEffect debe llevar el "id" y deberiamos
-    //Resetear los estados de loading y error
+    
     setItemDetail(null);
     setLoading(true);
     setError(null);
