@@ -7,16 +7,13 @@ export const Nav = () => {
         <nav className="nav">
             <ul className="nav">
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="/">Inicio</a>
                 </li>
                 <li>
-                    <a href="Products.jsx">Productos</a>
+                    <a href="/About">Nosotros</a>
                 </li>
                 <li>
-                    <a href="About.jsx">Nosotros</a>
-                </li>
-                <li>
-                    <a href="Cart.jsx"><img src="src\assets\cart.png" alt="Carrito"/></a>
+                    <a href="/Cart"><img src="src\assets\cart.png" alt="Carrito"/></a>
                 </li>
             </ul>
         </nav>
