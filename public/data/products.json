@@ -4,7 +4,7 @@
     "name": "Blusa Fire Lover",
     "description": "Blusa entallada en gasa semitransparente color rojo borgoña con estampado floral vintage. Destaca por su profundo escote en 'V' y sus dramáticas mangas campana con capas en cascada.",
     "price": 15000,
-    "image": "public/img/blusas/blusa-firelover.png",
+    "image": "/img/blusas/blusa-firelover.png",
     "category": "Remeras y Blusas"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Blusa Purple Wind",
     "description": "Crop top de tul/malla transparente en tono morado profundo con estampado místico. Presenta un favorecedor diseño off-shoulder (hombros al descubierto), torso fruncido con acabado en onda y mangas acampanadas que aportan movimiento.",
     "price": 10500,
-    "image": "public/img/blusas/blusa-purplewind.png",
+    "image": "/img/blusas/blusa-purplewind.png",
     "category": "Remeras y Blusas"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Vestido Vital Forest",
     "description": "Vestido midi con un encantador estampado de inspiración de cuentos de hadas sobre fondo verde bosque oscuro. Presenta un diseño de cuento mágico con árboles, flores y pequeños zorros rojos, corte ajustado en la cintura, elegante escote cuadrado y mangas cortas abullonadas. Una prenda de ensueño sacada de un bosque encantado..",
     "price": 20250,
-    "image": "public/img/vestidos/vestido-vitalforest.png",
+    "image": "/img/vestidos/vestido-vitalforest.png",
     "category": "Vestidos"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Buzo Calm Raven",
     "description": "Buzo con capucha (hoodie) en tono crema suave, perfecto para los días de bruma y misterio. Cuenta con un diseño acogedor y detalles de bordados o estampas de inspiración mística que combinan cuervos, setas silvestres, fases lunares y polillas en mangas y pecho.",
     "price": 25000,
-    "image": "public/img/abrigos/buzo-calmraven.png",
+    "image": "/img/abrigos/buzo-calmraven.png",
     "category": "Abrigos y Buzos"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Falda Sunny Summer",
     "description": "Falda larga de inspiración bohemia en un cálido tono crudo/marfil, diseñada con un impresionante juego de paneles de encaje, crochet y bordados texturizados. Su silueta escalonada y de caída ligera aporta un aire romántico, nostálgico y soleado, perfecto para días de ensueño.",
     "price": 18000,
-    "image": "public/img/faldas/falda-sunnysummer.png",
+    "image": "/img/faldas/falda-sunnysummer.png",
     "category": "Faldas"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Falda Night Garden",
     "description": "Falda larga y etérea en tono negro profundo, confeccionada en una capa de tul vaporoso que deja ver un delicado bordado botánico de flores y tallos en tonos ocres, blancos y tostados. Una pieza mística y sofisticada que evoca un jardín secreto bajo la luz de la luna.",
     "price": 17500,
-    "image": "public/img/faldas/falda-nightgarden.png",
+    "image": "/img/faldas/falda-nightgarden.png",
     "category": "Faldas"
   },
    {
@@ -52,7 +52,7 @@
     "name": "Conjunto Terra Dancer",
     "description": "Conjunto de dos piezas lleno de movimiento y aires ancestrales, confeccionado en tonos tierra con un rico estampado botánico y de elementos de la naturaleza. Consta de un top de escote en 'V' profundo con dramáticas mangas kimono muy amplias y una falda maxi de gran vuelo que se despliega mágicamente al andar.",
     "price": 48500,
-    "image": "public/img/conjuntos/conjunto-terradancer.png",
+    "image": "/img/conjuntos/conjunto-terradancer.png",
     "category": "Conjuntos"
   },
    {
@@ -60,7 +60,7 @@
     "name": "Conjunto Dreamy Creative",
     "description": "Conjunto de dos piezas de espíritu bohemio y soñador, elaborado en un vibrante estampado estilo patchwork con tonalidades moradas, doradas y negras. Incluye un crop top de escote corazón con lazo frontal y mangas cortas abullonadas, acompañado por una falda larga de tiro alto con vuelo escalonado.",
     "price": 45500,
-    "image": "public/img/conjuntos/conjunto-dreamycreative.png",
+    "image": "/img/conjuntos/conjunto-dreamycreative.png",
     "category": "Conjuntos"
   }
 ]
