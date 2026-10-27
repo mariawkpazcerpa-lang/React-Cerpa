@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 
@@ -7,13 +8,17 @@ export const Nav = () => {
         <nav className="nav">
             <ul className="nav">
                 <li>
-                    <a href="/">Inicio</a>
+                    <Link to="/">Inicio</Link>
                 </li>
                 <li>
-                    <a href="/About">Nosotros</a>
+                    <Link to="/About">
+                        Nosotros
+                    </Link >
                 </li>
                 <li>
-                    <a href="/Cart"><img src="src\assets\cart.png" alt="Carrito"/></a>
+                    <Link to="/Cart">
+                        <img src="src\assets\cart.png" alt="Carrito"/>
+                    </Link>
                 </li>
             </ul>
         </nav>

@@ -16,6 +16,7 @@
 .empty-cart {
   font-size: 2rem;
   padding: 1rem;
+  color: var(--border);
 }
 
 .cart-actions {
@@ -26,4 +27,5 @@
 .cart-actions p {
   font-size: 2rem;
   padding: 1rem;
+  color: var(--border);
 }

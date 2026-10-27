@@ -9,12 +9,12 @@
 }
 
 :root {
-  --bg:  #EAFbFF;
+  --bg:  #b1dbe4;
   --surface: #560bad;
   --card: #3c1b7b;
   --border: #2b0b3d;
   --text: #f4f4f4;
-  --text-secondary:#120a2a;
+  --text-secondary:#bbaaf3;
   --disabled: #00d6d6;
 
   --primary: #7b2cff;

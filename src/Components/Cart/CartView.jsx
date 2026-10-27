@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 export const CartView = () => {
   const { cart } = useCart();
+  console.log("Carrito recibido en CartView:", cart);
+  
 
   return (
     <section className="cart-container">
@@ -14,6 +16,7 @@ export const CartView = () => {
       {cart.length ? (
         <>
           <CartList />
+          
           <CartSummary />
         </>
       ) : (

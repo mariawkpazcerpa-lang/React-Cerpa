@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 
@@ -19,19 +19,45 @@ export const CartProvider = ({ children }) => {
   const navigate = useNavigate();
   const [cart, setCart] = useState([]);
 
+  useEffect(() => {
+    console.log("Carrito actual:", cart);
+  }, [cart]);
+
+  useEffect(() => {
+  console.log("CartProvider montado");
+
+  return () => {
+    console.log("CartProvider desmontado");
+  };
+  }, []);
+
   const isInCart = (item) => {
     const inCart = cart.some((element) => element.id === item.id);
     return inCart;
   };
 
   const addItem = (item) => {
+
+  console.log("Producto recibido:", item);
+  console.log("Carrito antes de agregar:", cart);
+
+  
+
     if (isInCart(item)) {
       alert("El producto ya existe en el carrito");
       return;
     }
    
-    setCart([...cart, item]);
+    setCart((prevCart) => {
+    const updatedCart = [...prevCart, item];
+    console.log("Carrito actualizado:", updatedCart);
+    return updatedCart;
+    });
+
+
     alert("Producto agregado al carrito 🎉");
+
+    
   };
 
   const removeItem = (id) => {
