@@ -7,7 +7,7 @@ export const Header = () => {
     <header className="header container">
         <div className="logo-container">
         <Link to="/">
-        <span><img src="src\assets\Oniric-logo.png" alt="Oniric" /></span>
+        <span><img src="/src/assets/Oniric-logo.png" alt="Oniric" /></span>
         </Link>
         </div>
         <div>

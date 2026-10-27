@@ -17,7 +17,7 @@ export const Nav = () => {
                 </li>
                 <li>
                     <Link to="/Cart">
-                        <img src="src\assets\cart.png" alt="Carrito"/>
+                        <img src="/src/assets/cart.png" alt="Carrito"/>
                     </Link>
                 </li>
             </ul>
